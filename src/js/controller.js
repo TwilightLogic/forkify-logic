@@ -133,6 +133,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newFeature = function () {
+  console.log('Welcome app!');
+};
+
 // 用view模块处理我们的在各个children-view中事件
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -142,7 +146,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView._addHandlerUpload(controlAddRecipe);
-  console.log('Welcome!');
+  newFeature();
 };
 
 init();
