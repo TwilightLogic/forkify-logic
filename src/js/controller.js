@@ -134,7 +134,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('Welcome app!');
+  console.log('Welcome app!!!!!');
 };
 
 // 用view模块处理我们的在各个children-view中事件
