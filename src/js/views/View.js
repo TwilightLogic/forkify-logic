@@ -116,7 +116,7 @@ export default class View {
   // 将controller模块的事件处理放在view模块中
   // 通过publisher-subscriber设计模式，将controlRecipes函数通过init初始化函数来传进view模块
   // ⬆️ 其实就是在controller模块调用view模块的addHandlerRender(controlRecipes)
-  addHandlerRender(handler) {
-    ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
-  }
+  // addHandlerRender(handler) {
+  //   ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
+  // }
 }
